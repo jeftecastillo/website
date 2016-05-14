@@ -1,0 +1,43 @@
+body { margin: 0;
+	  padding:0; }
+	  
+header { background-image:url(images/banksy-widmet-drei-werke-dem-fluechtlingsdrama-bei-calais-41-61713561.jpg); 
+		height: 100vh;
+		background-size: cover;
+		color: #fff;
+		font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+		}
+		
+.header-content {
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+	align-content: center;
+	height: 100vh;
+	text-align: center;}
+	
+h2 { color:#FF0004;
+		text-transform:uppercase;
+		font-size:55px;
+		margin-bottom: 0px;
+		letter-spacing: 4px;
+	}
+			  
+h4 {letter-spacing: 6px;
+	margin-top: 3px;
+    padding: 15px;
+    border: 15px solid white;
+	border-width: 5px;
+    margin: 15px;
+	background: rgba(0, 0, 0, 0.4);
+	margin-right: 20%;
+	margin-left: 20%;
+}
+		  
+a { text-decoration:none;
+	color:#FFFFFF;
+	}
+	
+
+
+a:hover {color: #00EFFF;}

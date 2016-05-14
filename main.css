@@ -1,0 +1,275 @@
+* {padding:0; margin: 0;}
+
+body {font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+a {text-decoration:none; color:#FF00D0;}
+li { list-style-type: none; }
+
+header {
+	width: 100%; 
+	height: 50px; 
+	margin:auto;
+	border-bottom: 1px solid #C5C5C5;
+	}
+/*---------------------------------------------Banksy logo START*/	
+#brand {
+		line-height: 50px;
+		color:#000000;
+		font-size: 30px;
+		font-weight: bolder;
+		text-align:center;
+		font-family:Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+		letter-spacing: 7px;	
+}
+/*---------------------------------------------Banksy logo ENDS*/	
+
+
+/*---------------------------------------------Nav style START*/
+nav { 
+	width: 100%;
+	text-align:center;
+	}
+nav a { display: block; 
+		padding: 15px 0;
+		border-bottom: 1px solid #C5C5C5;
+}
+
+nav a:hover {background: #DED9D9; color:#FFFFFF;}		
+nav li:last-child a { border-bottom: none; }
+/*-----------------------------------------------Nav style END*/
+
+/*-----------------------------------------------Menu icon & toggle START*/
+.menu {
+	width: 240px;
+	height: 52%;
+	position:absolute;
+	background:#000000;
+	left: -240px;
+	transition: all .4s ease-in-out;
+	-webkit-transition: all .4s ease-in-out;
+	-moz-transition: all .4s ease-in-out;
+	-ms-transition: all .4s ease-in-out;
+	-o-transition: all .4s ease-in-out;
+	z-index:1;
+	
+}
+
+.menu-icon {
+	padding: 10px 20px;
+	background: #000000;
+	color:#FFFFFF;
+	cursor: pointer;
+	float:left;
+	margin-top: 4px;
+	margin-left: 10px;
+}
+
+#menutoggle { display: none;	}
+
+#menutoggle:checked ~ .menu { position:absolute; left: 0;}
+/*-----------------------------------------------Menu icon & toggle ENDS*/
+
+/*-----------------------------------------------ABOUT PARAGRAPH & IMG START*/
+#aboutparagraph {
+		margin: 75px 0px 0px 255px;
+		max-width:29%;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		line-height: 30px;
+		
+		
+
+}		
+
+				
+
+#aboutimg { 
+		max-width:100%;
+		display:block;
+		height:auto;
+		margin-top: 75px;
+		margin-left:255px;
+}
+/*-----------------------------------------------ABOUT PARAGRAPH & IMG ENDS*/
+
+/*---------------------------------------------- gif & stories STARTS*/
+div.gif1 {
+		text-align: center;
+		margin-top: 75px;
+		width: 100%; 
+		height: auto;}
+   
+
+.one {max-width: 700px;
+		display:block;
+		margin: 30px auto;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		line-height: 30px;
+	}
+	
+div.gif2 {
+		text-align: center;
+		margin-top: 25px;}
+		
+.two {max-width: 700px;
+		display:block;
+		margin: 30px auto;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		line-height: 30px;}
+		
+div.gif3 {
+		text-align: center;
+		margin-top: 25px;}
+
+.three {max-width: 700px;
+		display:block;
+		margin: 30px auto;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		line-height: 30px;}
+
+div.gif4 {
+		text-align: center;
+		margin-top: 25px;}
+		
+.four {max-width: 700px;
+		display:block;
+		margin: 30px auto;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		line-height: 30px;}
+		
+div.gif5 {
+		text-align: center;
+		margin-top: 25px;}
+
+.five {max-width: 700px;
+		display:block;
+		margin: 30px auto;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		line-height: 30px;}
+
+
+div.gif6 {
+		text-align: center;
+		margin-top: 25px;}
+		
+.six {max-width: 700px;
+		display:block;
+		margin: 30px auto;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		line-height: 30px;}
+		
+div.gif7 {
+		text-align: center;
+		margin-top: 25px;}
+		
+.seven {max-width: 700px;
+		display:block;
+		margin: 30px auto;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		line-height: 30px;}
+		
+div.gif8 {
+		text-align: center;
+		margin-top: 25px;}
+		
+.eight {max-width: 700px;
+		display:block;
+		margin: 30px auto;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		line-height: 30px;}
+		
+div.gif9 {
+		text-align: center;
+		margin-top: 25px;}
+		
+.nine {max-width: 700px;
+		display:block;
+		margin: 30px auto;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		line-height: 30px;}
+		
+div.gif10 {
+		text-align: center;
+		margin-top: 25px;}
+		
+.ten {max-width: 700px;
+		display:block;
+		margin: 30px auto;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 13px;
+		line-height: 30px;}
+		
+		
+div.backtotop {float:right;
+				padding-right:75px;
+				margin-bottom:30px;}
+	
+
+video {	
+			display:block;
+			margin: 75px auto;
+			/*width: 37%    !important;*/
+  			height: auto   !important;
+			position:relative;
+			}
+										
+.bodycontainer {
+				max-width:700px;
+				display:block;
+				margin: 30px auto;
+				font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-size: 13px;
+				line-height: 30px;}
+/*---------------------------------------------- gif & stories ENDS*/
+
+
+.js-video {
+  height: 0;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  margin-bottom: 10px;
+  position: relative;
+  overflow: hidden;
+}
+ 
+.js-video.widescreen {
+  padding-bottom: 56.34%;
+}
+ 
+.js-video.vimeo {
+  padding-top: 0;
+}
+
+.js-video embed, .js-video iframe, .js-video object, .js-video video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+
+
+/*---------------------------------------------- footer STARTS*/
+#footer {
+		margin-top:75px;
+		padding:50px 0 50px 0;
+		width:100%;
+		height:25px;
+		background-color:#000000;
+		font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size:10px;
+		color:#FFFFFF;
+		text-align:center;}
+		
+/*---------------------------------------------- footer ENDS*/
+
